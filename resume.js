@@ -1,4 +1,4 @@
-const getSkillrackData = require("../scrapResume");
+const getSkillrackData = require("./scrapResume");
 
 module.exports = async (req, res) => {
   const { id, key } = req.query;
